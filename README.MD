@@ -1,27 +1,32 @@
-Commands:
--------------
-Assuming pwd is top project dir ("sudoku")
+TO RUN:
+===============
 
-to build executable jar:
--------------
-    sbt assembly
-    
-Check test reports in target/test-reports
+1. cd to the project dir
 
-to run:
--------------
-If on mac or linux you may need to add permissions to validate.sh first: 
+
+2. to build executable jar using sbt command:
+
+       sbt assembly
+
+    mvn package
+
+3. remove ".rename" from the file name of the file
+     validate.sh.rename if on Mac/Linux
+     <BR>or<BR>
+     validate.bat.rename if on Windows
+
+4. If on mac or linux you may need to add permissions to validate.sh first: 
+
 
      chmod +x validate.sh
      
-If you are using Windows rename file to validate.bat
+5. Execute the program:
 
-Execute the program:
-
-Mac/Linux:
+   Mac/Linux:
       
-     ./validate.sh  "PATH_TO_INPUT_FILE"
+      
+     ./validate.sh [PATH_TO_INPUT_FILE]
      
-Windows:
+   Windows:
 
-    validate.bat "PATH_TO_INPUT_FILE"
+    validate.bat [PATH_TO_INPUT_FILE]
