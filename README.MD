@@ -8,7 +8,6 @@ TO RUN:
 
        sbt assembly
 
-    mvn package
 
 3. remove ".rename" from the file name of the file
      validate.sh.rename if on Mac/Linux
