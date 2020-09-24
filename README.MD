@@ -15,17 +15,18 @@ TO RUN:
      validate.bat.rename if on Windows
 
 4. If on mac or linux you may need to add permissions to validate.sh first: 
-
-
-     chmod +x validate.sh
+     
+     
+       chmod +x validate.sh
+      
      
 5. Execute the program:
 
    Mac/Linux:
       
       
-     ./validate.sh [PATH_TO_INPUT_FILE]
+       ./validate.sh [PATH_TO_INPUT_FILE]
      
    Windows:
 
-    validate.bat [PATH_TO_INPUT_FILE]
+       validate.bat [PATH_TO_INPUT_FILE]
